@@ -1,9 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T04:56:59.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.7.1" etag="K4TJjl-pJSZsAgve-GBp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T05:49:54.886Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WpwxufiCyNfEt0-1LxIx" version="21.7.1" type="github">
   <diagram name="Page-1" id="eaLLX4wJjizQ4G4Z6DoM">
-    <mxGraphModel>
+    <mxGraphModel dx="934" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-4" value="rock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-5" value="water" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-7" value="particle types" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-8" value="relationships" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-15" value="in 2D space, the maximum number of neighbours each particle in a uniformly tiled space can have is 8 as in a square grid." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-80" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-17" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-18" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-19" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-20" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-21" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-22" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-23" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-24" value="7" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-27" value="consumption" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="40" as="geometry">
+            <mxRectangle x="520" y="320" width="200" height="240" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-28" value="" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-27">
+          <mxGeometry y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-29" value="excretion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="40" as="geometry">
+            <mxRectangle x="520" y="320" width="200" height="240" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-30" value="" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-29">
+          <mxGeometry y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-31" value="reproduction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="40" as="geometry">
+            <mxRectangle x="520" y="480" width="200" height="240" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-32" value="" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-31">
+          <mxGeometry y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-33" value="air" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="280" y="240" width="120" height="40" as="geometry">
+            <mxRectangle x="280" y="240" width="200" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-34" value="phase: fluid&lt;br&gt;density: 1.2" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-33">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-13" value="gravity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="40" as="geometry">
+            <mxRectangle x="520" y="240" width="200" height="240" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-14" value=".particles tend to order with more dense below less dense&lt;br&gt;.from the grid, this relationship has 3 discrete strengths like phase:&lt;br&gt;.solids swap with lower density particles directly underneath them (position 6)&lt;br&gt;.grains swap with lower density particles below them (positions 5,6,7)&lt;br&gt;.fluids swap with lower density particles below and beside them (positions 3,4,5,6,7)." style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-13">
+          <mxGeometry y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-35" value="dirt" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="40" as="geometry">
+            <mxRectangle x="280" y="320" width="200" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-36" value="phase: solid&lt;br&gt;density: 1500" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-35">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-37" value="sand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="280" y="400" width="120" height="40" as="geometry">
+            <mxRectangle x="280" y="400" width="200" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-38" value="phase: grain&lt;br&gt;density: 1200" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-37">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-40" value="each cell can only interact with these 8 neighbours.&lt;br&gt;each cell can only interact once per tick to ensure locality.&lt;br&gt;a cell which has been interacted with is updated in the next tick.&lt;br&gt;when updated, a cell experiences each relationship." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="340" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
