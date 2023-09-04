@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T06:01:49.010Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ui9U_rFLDh09lVJqJ5oo" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T23:43:50.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NTfVDLnBh-EfYcjwy9Z7" version="21.7.1" type="github">
   <diagram name="Page-1" id="eaLLX4wJjizQ4G4Z6DoM">
-    <mxGraphModel dx="934" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="870" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,13 +78,13 @@
         <mxCell id="h2KC7i_i18Ru5Yod90iZ-34" value="phase: fluid&lt;br&gt;density: 1.2" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-33">
           <mxGeometry y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h2KC7i_i18Ru5Yod90iZ-13" value="gravity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="480" y="250" width="120" height="40" as="geometry">
-            <mxRectangle x="520" y="240" width="200" height="240" as="alternateBounds" />
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-13" value="gravity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="200" height="280" as="geometry">
+            <mxRectangle x="480" y="250" width="120" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h2KC7i_i18Ru5Yod90iZ-14" value=".particles tend to order with more dense below less dense&lt;br&gt;.from the grid, this relationship has 3 discrete strengths like phase:&lt;br&gt;.solids swap with lower density particles directly underneath them (position 6)&lt;br&gt;.grains swap with lower density particles below them (positions 5,6,7)&lt;br&gt;.fluids swap with lower density particles below and beside them (positions 3,4,5,6,7)." style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-13">
-          <mxGeometry y="40" width="200" height="200" as="geometry" />
+        <mxCell id="h2KC7i_i18Ru5Yod90iZ-14" value=".particles tend to order with more dense below less dense&lt;br&gt;.from the grid, this relationship has 3 discrete strengths like phase:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;solids swap with lower density particles directly underneath them (position 6)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;grains swap with lower density particles below them (positions 5,6,7)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;fluids swap with lower density particles below and beside them (positions 3,4,5,6,7).&lt;br&gt;.exception if the particle is solid, then no swap occurs" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h2KC7i_i18Ru5Yod90iZ-13">
+          <mxGeometry y="40" width="200" height="240" as="geometry" />
         </mxCell>
         <mxCell id="h2KC7i_i18Ru5Yod90iZ-35" value="dirt" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="280" y="330" width="120" height="40" as="geometry">
