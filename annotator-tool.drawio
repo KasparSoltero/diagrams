@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T00:50:01.900Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0oSrHOFELJ7_aMevtK-D" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T00:55:25.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="f8rZlWUmm9QMTT1dQht2" version="21.7.1" type="github">
   <diagram name="Page-1" id="h0mL1t7hVGqQzZSweprh">
     <mxGraphModel dx="1456" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xPHiqMeXsOjvFi-vwVRh-1" value="segment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="320" width="200" height="520" as="geometry">
+          <mxGeometry x="480" y="320" width="200" height="560" as="geometry">
             <mxRectangle x="240" y="320" width="120" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -40,12 +40,15 @@
           <mxGeometry y="400" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xPHiqMeXsOjvFi-vwVRh-22" value="methods" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="xPHiqMeXsOjvFi-vwVRh-1">
-          <mxGeometry y="440" width="200" height="80" as="geometry">
+          <mxGeometry y="440" width="200" height="120" as="geometry">
             <mxRectangle x="240" y="320" width="120" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPHiqMeXsOjvFi-vwVRh-23" value="fetch: /api/seg/&lt;b&gt;filename&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xPHiqMeXsOjvFi-vwVRh-22">
+        <mxCell id="xPHiqMeXsOjvFi-vwVRh-23" value="get: fetch: /api/seg/&lt;b&gt;filename&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xPHiqMeXsOjvFi-vwVRh-22">
           <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xPHiqMeXsOjvFi-vwVRh-32" value="manual create:&amp;nbsp;fetch: /api/user-seg/" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xPHiqMeXsOjvFi-vwVRh-22">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xPHiqMeXsOjvFi-vwVRh-3" value="user" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="320" width="200" height="120" as="geometry">
@@ -78,7 +81,7 @@
         <mxCell id="xPHiqMeXsOjvFi-vwVRh-20" value="completion &lt;i&gt;number&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=white;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xPHiqMeXsOjvFi-vwVRh-15">
           <mxGeometry y="200" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xPHiqMeXsOjvFi-vwVRh-24" value="&#39;segment&#39; in database called &#39;region&#39; in wavesurfer UI, could merge - e.g. region.data &amp;lt;-&amp;gt; segment.label" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+        <mxCell id="xPHiqMeXsOjvFi-vwVRh-24" value="&#39;segment&#39; in database called &#39;region&#39; in wavesurfer UI, could merge - e.g. region.data &amp;lt;-&amp;gt; segment.label - region has &#39;status: new&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="827" y="320" width="373" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xPHiqMeXsOjvFi-vwVRh-25" value="to fix" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
@@ -90,7 +93,7 @@
         <mxCell id="xPHiqMeXsOjvFi-vwVRh-27" value="region creation naming, removed &#39;findNumber&#39; function" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="827" y="620" width="413" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xPHiqMeXsOjvFi-vwVRh-28" value="all classes on region creation by double click" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+        <mxCell id="xPHiqMeXsOjvFi-vwVRh-28" value="all classes and filename and response on region creation by double click" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="1480" y="290" width="373" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xPHiqMeXsOjvFi-vwVRh-29" value="logs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
