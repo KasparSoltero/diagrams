@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T12:49:56.085Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="7dNOD1YvqjobEuFGZzhY" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T00:48:50.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UTPTkS-IWLsXWJ7oW48k" version="21.7.1" type="github">
   <diagram name="Page-1" id="h0mL1t7hVGqQzZSweprh">
-    <mxGraphModel dx="2620" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2739" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -459,6 +459,12 @@
         </mxCell>
         <mxCell id="xPHiqMeXsOjvFi-vwVRh-139" value="&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;regionlength locked to 5 s&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="1680" y="320" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPHiqMeXsOjvFi-vwVRh-141" value="&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;init databases on first load-up&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="827" y="720" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xPHiqMeXsOjvFi-vwVRh-142" value="&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;whats cuda:0&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontStyle=1;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="530" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
