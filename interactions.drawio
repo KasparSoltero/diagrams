@@ -1,9 +1,237 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T10:21:03.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="22.0.4" etag="7obwkFDxb-PcCj-potQq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T10:59:39.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="7BM_ye2W5ZjKwyuVh9OA" version="22.0.4" type="github">
   <diagram name="Page-1" id="hpkVz6n-l7aUyLmojiAf">
-    <mxGraphModel>
+    <mxGraphModel dx="2420" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-3" value="Frugivore" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="360" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-4" value="Hemiphaga novaeseelandiae" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-3">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-43" value="Pollinator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-44" value="Anthornis melanura" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-43">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-45" value="Nectar Feeder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-46" value="Prosthemadera novaeseelandiae" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-45">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-47" value="Seed Eater" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="420" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-48" value="Emberiza citrinella" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-47">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-49" value="Seed Eater" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="420" width="110" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-50" value="Emberiza citrinella" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-52" value="Passer domesticus" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-53" value="Fringilla coelebs" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-56" value="Carduelis carduelis" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-55" value="Columba livia" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-58" value="Acanthis cabaret" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-57" value="Emberiza cirlus" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-54" value="Melopsittacus undulatus" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-68" value="Columba livia" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-49">
+          <mxGeometry y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-69" value="Mollusk Eater" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-70" value="Haematopus unicolor" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-69">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-71" value="Haematopus finschi" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-69">
+          <mxGeometry y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-79" value="Fish Eater" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="110" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-80" value="Phalacrocorax varius" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-81" value="Phalacrocorax punctatus" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-82" value="Podiceps cristatus" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-83" value="Ardea alba" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-84" value="Microcarbo melanoleucos" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-87" value="Platalea regia" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-86" value="Hydroprogne caspia" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-85" value="Chlidonias albostriatus" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-88" value="Sterna striata" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-89" value="Egretta novaehollandiae" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-91" value="Thalassarche melanophris" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-90" value="Eudyptula minor" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-79">
+          <mxGeometry y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-92" value="Predator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="480" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-93" value="Todiramphus sanctus" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-92">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-94" value="Circus approximans" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-92">
+          <mxGeometry y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-95" value="Falco novaeseelandiae" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-92">
+          <mxGeometry y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-102" value="Parasitic" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="600" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-103" value="Chrysococcyx lucidus" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-102">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-110" value="Scavenger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="660" width="110" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-111" value="Larus dominicanus" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-112" value="Chroicocephalus novaehollandiae" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-113" value="Macronectes halli" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-114" value="Chroicocephalus bulleri" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-115" value="" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-116" value="" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-117" value="" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-118" value="" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-119" value="" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-120" value="" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-121" value="" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-122" value="" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-110">
+          <mxGeometry y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-123" value="Insectivore" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="720" width="110" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-127" value="Rhipidura fuliginosa" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-128" value="Gerygone igata" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-129" value="Hirundo neoxena" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-131" value="Petroica macrocephala" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-132" value="Anthus novaeseelandiae" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-133" value="Limosa lapponica" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-134" value="Himantopus leucocephalus" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-135" value="Alauda arvensis" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-130" value="Prunella modularis" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-123">
+          <mxGeometry y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-136" value="Omnivore" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="900" width="110" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-141" value="Zosterops lateralis" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-146" value="Porphyrio melanotus" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-149" value="Tadorna variegata" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-150" value="Aythya novaeseelandiae" style="text;strokeColor=none;fillColor=#B9E0A5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-142" value="Gymnorhina tibicen" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-143" value="Turdus merula" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-144" value="Anas platyrhynchos" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-145" value="Sturnus vulgaris" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-147" value="Gallus gallus" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-148" value="Phasianus colchicus" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-151" value="Callipepla californica" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hNA__n7wS_Ob8VKDCrHf-152" value="Turdus philomelos" style="text;strokeColor=none;fillColor=#CCCCFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNA__n7wS_Ob8VKDCrHf-136">
+          <mxGeometry y="360" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
